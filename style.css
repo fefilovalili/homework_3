@@ -1,0 +1,121 @@
+*{
+
+}
+
+body{
+    background-color: #FFB58F;
+}
+.wrapper{
+    margin-top: 20px;
+    margin-right: 10em;
+    margin-left: 5em;
+    margin-bottom: 4em;
+}
+
+button {
+    color:#248C86;
+    background-color: #64D9D2;
+    padding: 10px 7px;
+    cursor: pointer;
+    border: 2px solid gray;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size:  15px;
+    border-radius: 15px 5px 15px 5px;
+}
+button:hover{
+color:#64D9D2;
+background-color: #248C86;
+}
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    width: 80%;
+    background-color: #D98C64;
+}
+p{
+    font-size: 17px;
+    font-family: 'DotGothic16', sans-serif;
+}
+h1 {
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 45px;
+    text-shadow: white 1px 1px 0, white 2px 2px 0, 
+    white 3px 3px 0, white 4px 4px 0,  white 5px 5px 0;
+}
+h3{
+    text-shadow:blue;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    flex-basis: auto;
+    background-color: white;
+    padding: 2em;
+    margin: 1em;
+    text-align: justify;
+}
+.article button{
+    align-self: flex-end;
+    
+}
+.img{
+    width: 90%;   
+}
+.logo{
+width: 1.5em;
+margin-left: 2em;
+margin-right: 1em;
+}
+header{
+}
+.menu{
+    display: flex;
+    justify-content:space-around;
+    align-items:baseline;
+    flex-wrap: wrap;
+    padding-left: 50%;
+   
+}
+.menu button{
+    color:aqua;
+    background-color: black;
+    cursor: pointer;
+    border: 1px solid gray;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 1.5em;
+    font-weight:700;
+    margin-top: -1em;
+}
+nav{
+    background-color: #8C5132;
+    opacity: 0.7;
+margin-top: -2em;
+
+}
+nav a{
+    color: black ;
+    text-shadow: aqua 1px 1px 0, aqua 2px 2px 0; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 1.5em;
+    font-weight:700;
+    text-decoration: none;
+    
+}
+main{
+    background-image: url(https://c.wallhere.com/photos/fa/5b/memes-197416.jpg!d);
+    background-attachment: fixed;
+}
